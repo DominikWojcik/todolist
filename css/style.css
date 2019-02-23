@@ -1,0 +1,132 @@
+
+.done {
+    color: red;
+}
+
+body{
+    font-size: 10px;
+    background-image: url("../images/bacground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Indie Flower', cursive;
+
+}
+li {
+    position: relative;
+    padding: 5px 0 5px 20px;
+    margin-bottom: 25px;
+    list-style: none;
+    border: 1px solid black;
+    background: linear-gradient(white, gold);
+    width: 525px;
+    height: 100px;
+    font-size: 1.5em;
+    color: black;
+    text-shadow: 1px 1px 0.2em white;
+    box-shadow: 5px 5px 3px darkred;
+    border-radius: 10px 5px 8px 4px;
+}
+
+li:hover {
+    background:gold;
+    text-shadow: 1px 1px 0.2em grey;
+}
+
+
+ul {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.buttonHolder {
+
+    margin: 0 auto;
+    width: 550px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.buttonHolder button{
+    margin: 5px 0 5px;
+}
+
+button {
+    margin: -5px 0 0 5px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background: lightgoldenrodyellow;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 10px 5px 8px 4px;
+}
+
+button:hover {
+    color: darkred;
+    background: gold;
+    text-shadow: 1px 1px 0.2em white;
+
+}
+
+.inputHolder {
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin: 0 auto;
+    width: 600px;
+
+}
+
+input {
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 2em;
+    background: lightgoldenrodyellow;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.numberOfTask {
+    margin: 0 auto;
+    width: 400px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    background: lightgoldenrodyellow;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.focus {
+    background: palegoldenrod;
+    color: black;
+    box-shadow: 5px 5px 3px darkred;
+}
+
+.focus::placeholder {
+    color: darkorange;
+}
+
+h3 {
+    position: absolute;
+    top: 2%;
+    left: 96%;
+    padding: 0;
+    font-size: 1.5em;
+    margin: 0;
+    color: orange;
+    text-shadow: 2px 2px 0.2em white;
+}
